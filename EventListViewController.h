@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EventListViewController.h
 //  PartyTime
 //
 //  Created by Charles Shinaver on 2/4/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface EventListViewController : UIViewController
 
 @end
-

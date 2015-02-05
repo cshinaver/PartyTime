@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		E90648D11A82EA4600857144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E90648D01A82EA4600857144 /* main.m */; };
 		E90648D41A82EA4600857144 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E90648D31A82EA4600857144 /* AppDelegate.m */; };
-		E90648D71A82EA4600857144 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90648D61A82EA4600857144 /* ViewController.m */; };
 		E90648DA1A82EA4600857144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90648D81A82EA4600857144 /* Main.storyboard */; };
 		E90648DC1A82EA4600857144 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90648DB1A82EA4600857144 /* Images.xcassets */; };
 		E90648DF1A82EA4600857144 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E90648DD1A82EA4600857144 /* LaunchScreen.xib */; };
 		E90648EB1A82EA4600857144 /* PartyTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E90648EA1A82EA4600857144 /* PartyTimeTests.m */; };
+		E946BD0D1A82EC35007BF768 /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E946BD0C1A82EC35007BF768 /* EventListViewController.m */; };
+		E946BD101A82EC89007BF768 /* EventMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E946BD0F1A82EC89007BF768 /* EventMapViewController.m */; };
+		E946BD131A82ECFD007BF768 /* HostEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E946BD121A82ECFD007BF768 /* HostEventViewController.m */; };
+		E946BD151A82ED4A007BF768 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E946BD141A82ED4A007BF768 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,19 @@
 		E90648D01A82EA4600857144 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E90648D21A82EA4600857144 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E90648D31A82EA4600857144 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E90648D51A82EA4600857144 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E90648D61A82EA4600857144 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E90648D91A82EA4600857144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E90648DB1A82EA4600857144 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E90648DE1A82EA4600857144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E90648E41A82EA4600857144 /* PartyTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90648E91A82EA4600857144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E90648EA1A82EA4600857144 /* PartyTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartyTimeTests.m; sourceTree = "<group>"; };
+		E946BD0B1A82EC35007BF768 /* EventListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventListViewController.h; path = ../EventListViewController.h; sourceTree = "<group>"; };
+		E946BD0C1A82EC35007BF768 /* EventListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventListViewController.m; path = ../EventListViewController.m; sourceTree = "<group>"; };
+		E946BD0E1A82EC89007BF768 /* EventMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventMapViewController.h; sourceTree = "<group>"; };
+		E946BD0F1A82EC89007BF768 /* EventMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventMapViewController.m; sourceTree = "<group>"; };
+		E946BD111A82ECFD007BF768 /* HostEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostEventViewController.h; sourceTree = "<group>"; };
+		E946BD121A82ECFD007BF768 /* HostEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostEventViewController.m; sourceTree = "<group>"; };
+		E946BD141A82ED4A007BF768 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E946BD151A82ED4A007BF768 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 		E90648C21A82EA4600857144 = {
 			isa = PBXGroup;
 			children = (
+				E946BD141A82ED4A007BF768 /* MapKit.framework */,
 				E90648CD1A82EA4600857144 /* PartyTime */,
 				E90648E71A82EA4600857144 /* PartyTimeTests */,
 				E90648CC1A82EA4600857144 /* Products */,
@@ -81,11 +91,15 @@
 		E90648CD1A82EA4600857144 /* PartyTime */ = {
 			isa = PBXGroup;
 			children = (
+				E946BD0B1A82EC35007BF768 /* EventListViewController.h */,
+				E946BD0C1A82EC35007BF768 /* EventListViewController.m */,
 				E90648D21A82EA4600857144 /* AppDelegate.h */,
 				E90648D31A82EA4600857144 /* AppDelegate.m */,
-				E90648D51A82EA4600857144 /* ViewController.h */,
-				E90648D61A82EA4600857144 /* ViewController.m */,
 				E90648D81A82EA4600857144 /* Main.storyboard */,
+				E946BD111A82ECFD007BF768 /* HostEventViewController.h */,
+				E946BD121A82ECFD007BF768 /* HostEventViewController.m */,
+				E946BD0E1A82EC89007BF768 /* EventMapViewController.h */,
+				E946BD0F1A82EC89007BF768 /* EventMapViewController.m */,
 				E90648DB1A82EA4600857144 /* Images.xcassets */,
 				E90648DD1A82EA4600857144 /* LaunchScreen.xib */,
 				E90648CE1A82EA4600857144 /* Supporting Files */,
@@ -219,8 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E90648D71A82EA4600857144 /* ViewController.m in Sources */,
 				E90648D41A82EA4600857144 /* AppDelegate.m in Sources */,
+				E946BD0D1A82EC35007BF768 /* EventListViewController.m in Sources */,
+				E946BD131A82ECFD007BF768 /* HostEventViewController.m in Sources */,
+				E946BD101A82EC89007BF768 /* EventMapViewController.m in Sources */,
 				E90648D11A82EA4600857144 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +428,7 @@
 				E90648F01A82EA4600857144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E90648F11A82EA4600857144 /* Build configuration list for PBXNativeTarget "PartyTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				E90648F31A82EA4600857144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
