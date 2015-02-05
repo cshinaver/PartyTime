@@ -5,6 +5,8 @@
 //  Created by Charles Shinaver on 2/4/15.
 //  Copyright (c) 2015 Charles Shinaver. All rights reserved.
 //
+// Possible tutorial help:
+// http://chrisrisner.com/Mobile-Geolocation-Apps-with-Windows-Azure-Websites-Part-2--Displaying-Points-of-Interest-in-iOS
 
 #import "EventMapViewController.h"
 
@@ -13,6 +15,7 @@
 @end
 
 @implementation EventMapViewController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
