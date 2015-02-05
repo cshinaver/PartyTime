@@ -11,3 +11,6 @@ PartyTime App practice
 - [ ]  Create basic interface sketchup
 - [ ]  Add friend's list functionality 
 - [ ]  Create webserver with login capability from app
+- [ ]  Add icons for tab bars (Amy?)
+
+
